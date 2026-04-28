@@ -28,6 +28,11 @@ https://notebook.link/github.com/<owner>/<repo>/
 
 Ein konkretes Notebook kann dann im Dateibrowser geoeffnet oder ueber einen Link mit Default-Dokument referenziert werden.
 
+Empfohlene Notebooks:
+
+- `notebooks/00_screw_detection_demo.ipynb` fuer die einfache Daten- und Boxenpruefung
+- `notebooks/01_showcase_interactive_demo.ipynb` fuer die kombinierte Vorher/Nachher- und Interaktionsdemo
+
 ## Aktuelle Demo-Struktur
 
 Das Notebook sucht standardmaessig zuerst nach `text_bilder/` und faellt, falls nicht vorhanden, auf `test_bilder/` zurueck.
@@ -81,6 +86,7 @@ Fuer private Repositories gilt zusaetzlich:
   jupyter-lite.json
 notebooks/
   00_screw_detection_demo.ipynb
+  01_showcase_interactive_demo.ipynb
 text_bilder/
   README.md
 test_bilder/
@@ -100,6 +106,12 @@ Dann im Dateibrowser:
 1. `notebooks/00_screw_detection_demo.ipynb` oeffnen
 2. Zellen ausfuehren
 3. Bild aus der Tabelle oder Vorschau waehlen
+
+Fuer die wirkungsvollere Demo empfehle ich stattdessen:
+
+1. `notebooks/01_showcase_interactive_demo.ipynb` oeffnen
+2. `Run All` ausfuehren
+3. Bild, Klassenfilter und Darstellungsoptionen direkt im Widget-Bereich steuern
 
 ## Naechster sinnvoller Schritt
 
